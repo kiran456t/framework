@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.rameshsoft.automation.businessscripts.PomLoginOne">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="endExtReport"/>
+          <include name="loginpom"/>
+          <include name="openBrowser"/>
+          <include name="initExtReport"/>
+          <include name="beforeTCExecution"/>
+          <include name="afterTCExecution"/>
+        </methods>
+      </class> <!-- com.rameshsoft.automation.businessscripts.PomLoginOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
